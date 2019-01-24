@@ -6,6 +6,7 @@ Vue.use(Router);
 const mapObj = {
     'index':resolve => require(['../views/index.vue'], resolve),
     'learn':resolve => require(['../views/learn.vue'], resolve),
+    'request':resolve => require(['../views/request.vue'], resolve),
 
 }
 
@@ -16,6 +17,7 @@ routes.push(
     {path: '/', redirect: '/index'},
     {path:'/index',name:'index',component:mapObj.index},
     {path:'/learn',name:'learn',component:mapObj.learn},
+    {path:'/request',name:'request',component:mapObj.request},
 );
 
 export function createRouter() {
