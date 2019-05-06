@@ -9,7 +9,6 @@
   export default {
       name: 'app',
 
-
       data() {
           return {
 
@@ -18,7 +17,7 @@
   }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
   body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
     font-size: 15px;
